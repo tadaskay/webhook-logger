@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:tadaskay/webhook-logger.git",
   "author": "Tadas Krivickas <tadas.krivickas@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
