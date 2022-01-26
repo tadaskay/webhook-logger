@@ -1,6 +1,9 @@
 const express = require("express")
-
+const bodyParser = require("body-parser")
 const app = express()
+
+app.use(bodyParser.json())
+
 app.get("/*", (req, res) => {
     console.log("GET", req.path, new Date().toTimeString())
     console.dir(req.body, { depth: null })
